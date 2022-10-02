@@ -40,4 +40,22 @@ public class Conta {
 	public void deposita(double valor) {
 		this.saldo += valor;
 	}
+
+	
+	public double pegaSaldo() {
+		return this.getSaldo();
+		
+	}
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 }
